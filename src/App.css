@@ -9,6 +9,7 @@ body{
   background-color: #c5e4e7;
 }
 .text-top{
+  min-width: 450px;
   margin-top: 3vh ;
   font-size: 1.5rem;
   letter-spacing: 11px;
@@ -18,12 +19,12 @@ body{
   background-color: white;
   padding: 32px;
   /* width: 70vw !important; */
-  /* min-width: 420px; */
+  min-width: 450px;
   border-radius: 24px;
   margin: 5vh auto !important;
 }
 .text-input{
-  text-align: right !important;
+  text-align: right;
   width: 100% !important;
   
 }
@@ -47,9 +48,10 @@ body{
   color:hsl(183, 100%, 15%)
 } 
 
-
 /* Right content */
-
+.text_input:focus{
+  background-color: yellow;
+}
 .right-content{
   background-color: hsl(183, 100%, 15%);
   height: 100%;
@@ -62,4 +64,13 @@ body{
   background-color: #2bbba6 !important;
   color: hsl(183, 100%, 15%) !important;
   font-size: 1rem !important;
+}
+
+.disable-reset-button{
+  width: 100% !important;
+  padding:10px;
+  color: hsl(183, 100%, 15%) !important;
+  font-size: 1rem !important;
+  background-color: #13847c !important;
+  cursor: not-allowed !important;
 }
