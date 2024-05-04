@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono';
+  color: hsl(183, 100%, 15%);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #c5e4e7;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-top{
+  margin-top: 3vh ;
+  font-size: 1.5rem;
+  letter-spacing: 11px;
+  font-weight: 700;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content{
+  background-color: white;
+  padding: 32px;
+  /* width: 70vw !important; */
+  /* min-width: 420px; */
+  border-radius: 24px;
+  margin: 5vh auto !important;
 }
-
-.App-link {
-  color: #61dafb;
+.text-input{
+  text-align: right !important;
+  width: 100% !important;
+  
 }
+.tip-custom{
+  height: 7vh;
+  width: 100%; 
+  border: none;
+  background-color: #2bc1af !important;
+}
+.tip-button{
+  height: 56px;
+  font-size: 1.5rem !important;
+  width: 100%;
+  font-family: 'Space Mono' !important;
+  background-color: hsl(183, 100%, 15%) !important;
+  transition: background-color 0.3s;;
+  
+}
+.tip-button:hover{
+  background-color: #2bc1af !important;
+  color:hsl(183, 100%, 15%)
+} 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Right content */
+
+.right-content{
+  background-color: hsl(183, 100%, 15%);
+  height: 100%;
+  border-radius: 13px;
+  padding: 4vh 3vw;
+}
+.reset-button{
+  width: 100% !important;
+  padding:10px;
+  background-color: #2bbba6 !important;
+  color: hsl(183, 100%, 15%) !important;
+  font-size: 1rem !important;
 }
